@@ -23,7 +23,7 @@ Android 环形进度条。
     app:startAngleOffset="0" />
 ```
 
-##### 可配置的视图属性
+##### 可配置的视图属性：
 ```
 app:circleDiameter 圆环直径
 app:progress 初始进度
@@ -33,7 +33,7 @@ app:progressWidth 圆环宽度
 app:startAngleOffset 进度起始角度
 ```
 
-##### 可以通过以下代码更改进度
+##### 可以通过以下代码更改进度：
 ```
 CircleProgressBar progressBar = (CircleProgressBar) findViewById(R.id.progressBar);
 progressBar.setProgress(30, true); // 第一个参数代表进度，第二个参数代表是否进行动画过渡
